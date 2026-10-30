@@ -1,0 +1,52 @@
+# 工作模板，不是已发布更新；发布前填写所有占位项并完成实际检查。
+status: draft
+from_version: "<source-version>"
+to_version: "<target-version>"
+update_id: "<unique-update-id>"
+update_type: "<major-or-minor>"
+supported_from: ["<source-version>"]
+instructions: UPDATE.md
+compatibility:
+  assessment: "<compatible-or-incompatible>"
+  basis: "<配置、规则、活动记录、工具影响的实际差异>"
+  historical_records: "<保留范围及混合语义读取方法>"
+source_baseline:
+  location: "<随目录提供或可可靠取得的旧基线>"
+  identity: "<内容校验依据>"
+  unavailable_action: "保留本地文件，逐项报告差异，不猜测定制内容"
+files:
+  - path: "<标准文件目标路径>"
+    action: modify # add | modify | rename | remove
+    source: "files/<目标内容或补丁>"
+    source_kind: full_file # full_file | patch
+    before_identity: "<预期旧内容依据；新增时明确应不存在>"
+    after_identity: "<目标内容依据>"
+    rename_from: null
+    conflict_action: preserve_and_review
+project_migration:
+  required: null # 发布前填 true/false；false 仍需说明理由并检查
+  reason: "<与实际 project_actions 一致>"
+project_actions:
+  - step_id: "<stable-step-id>"
+    action: inspect # add | modify | inspect | migrate | retain | skip
+    target: "<项目实例或实体范围；解析实际角色路径>"
+    precondition: "<适用条件及现有内容检查>"
+    instructions: "UPDATE.md#<对应步骤>"
+    postcondition: "<可检查的完成条件>"
+    retry: "后置条件满足则检查后跳过；漂移时停止该步骤"
+    recovery: "<恢复位置/方法及后续修改保护>"
+checks:
+  - "源文档收束审核完成，转换依据明确；待决项已隔离到受影响步骤"
+  - "目标文档收束审核完成，语义、证据范围和残余问题与源处置一致"
+  - "<标准文件、配置、实体、历史解释、引用、本地工具的具体检查及通过依据>"
+switch:
+  pause_scope: "<受影响写入及协调责任>"
+  checkpoint: "迁移 CHG；包含材料标识、旧版依据、步骤及文件清单"
+  fields: [PROJECT_PROFILE.standard_version, AI_ANCHOR.standard_version, index.standard_version]
+  verification: "<实际版本字段格式、目标文件及引用一致性检查>"
+  resume_condition: "全部切换检查通过且记录 completed"
+rollback:
+  before_switch: "<准备的备份及选择性撤回步骤>"
+  after_switch_without_new_work: "<恢复完整结构并验证的方法>"
+  after_new_work: "重新评估降级，保留新版记录，不承诺无损"
+  subsequent_edits: "发现本次写入后的其他修改时先沟通合并，不覆盖"

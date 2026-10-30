@@ -1,0 +1,17 @@
+{
+  "kind": "actual-project-adopted-copy",
+  "declared_version": "1.0",
+  "provenance": "User-provided actual project standard copy. Not certified as the original release snapshot or universal for all 1.0 installations. No business records included.",
+  "files": {
+    "AI_STANDARD.md": "c9746d4765d74c3ab0cd1ed5df6bb497fef2e66cd09a2d29d0f19c36e83d5321",
+    "AI_STANDARD_AUDIT.md": "e2bbd255bad1f525a5eb79e66b365690c466bb3c89613b79ef1f39c07433ce50",
+    "AI_STANDARD_CHANGE.md": "061f6fc275d705656f84a11dd0ec518a7ad0c1c9d6c439d644a14166dabad277",
+    "AI_STANDARD_CHECKLIST.md": "6f86b06636fc3d1dc0b39b47c49ce6cd0433f8764566dc8357f2751506fcc636",
+    "AI_STANDARD_CORE.md": "88b69fb52e2517395b41dca70cbfee71bb2e1a154db2d1de192dca297e56ce83",
+    "AI_STANDARD_ENTITIES.md": "bfdedeb7159b6c045b3e9ecf33761ee199773cdf7460747742f75a3f98cb0f90",
+    "AI_STANDARD_EXECUTION.md": "52ea2c2f2f109b74ac84f3f72e8fee89bd34e27eb9493fed8aa6a4de924123b3",
+    "AI_STANDARD_ONBOARDING.md": "3057312bebfaa831dc0fa99ec30728a6831031964a999b2337d112b033efc50c",
+    "AI_STANDARD_PROJECT.md": "84e691ce73909fc9284017422f45d28b14ac8ab9e3a325c06dd49eb6dc7bb6d6",
+    "AI_STANDARD_TEMPLATES.md": "305dd576776c5d531cca98235fdcd4f82eb4704209c1efd7434a94ecdc109256"
+  }
+}

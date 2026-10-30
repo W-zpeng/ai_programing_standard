@@ -1,0 +1,12 @@
+# Actual project material and generated migration sandboxes stay local.
+/1.0真实项目/
+/tests/migration/runs/
+/tests/migration/LATEST.json
+/tests/real-migration/
+/tests/correction-review/
+/tests/release-preparation-backup/
+/tests/release_prepare.py
+/tests/.deps/
+/tests/release-runs/
+__pycache__/
+*.pyc

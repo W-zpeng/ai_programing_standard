@@ -1,0 +1,248 @@
+{
+  "status": "released",
+  "from_version": "1.0",
+  "to_version": "1.1",
+  "update_id": "1.0-to-1.1",
+  "release_date": "2026-10-30",
+  "update_type": "minor-label-with-explicit-incompatible-migration",
+  "supported_from": [
+    "1.0"
+  ],
+  "compatibility": {
+    "assessment": "migration-required",
+    "basis": "VER status semantics and evidence validity; see UPDATE.md",
+    "historical_records": "retain original with migration interpretation boundary"
+  },
+  "baseline": "BASELINE.yaml",
+  "instructions": "UPDATE.md",
+  "execution": "AI-assisted assessment and documented manual migration; not an unattended patch installer",
+  "files": [
+    {
+      "path": "AI_STANDARD.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD.md",
+      "source_kind": "full_file",
+      "before_sha256": "c9746d4765d74c3ab0cd1ed5df6bb497fef2e66cd09a2d29d0f19c36e83d5321",
+      "after_sha256": "828598cfbbfd3c71b23d18ad15ebceeee2e763aa0de241a315b1b8e1af4b0fd8",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_AUDIT.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_AUDIT.md",
+      "source_kind": "full_file",
+      "before_sha256": "e2bbd255bad1f525a5eb79e66b365690c466bb3c89613b79ef1f39c07433ce50",
+      "after_sha256": "27d7192f6fe22228899f35ec3a7582490e079fd94012d0d5121adb5e0250bd48",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_CHANGE.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_CHANGE.md",
+      "source_kind": "full_file",
+      "before_sha256": "061f6fc275d705656f84a11dd0ec518a7ad0c1c9d6c439d644a14166dabad277",
+      "after_sha256": "4c0d2a9ce8fd8ca28f9c3b7e38b1e837611ef4d009e1e05d0d46a6220ab555c9",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_CHECKLIST.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_CHECKLIST.md",
+      "source_kind": "full_file",
+      "before_sha256": "6f86b06636fc3d1dc0b39b47c49ce6cd0433f8764566dc8357f2751506fcc636",
+      "after_sha256": "c5dc0b7e6b52f2c0fdc5a833a8c8053d390898ba537ea8c6ff02f84185bc5215",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_CORE.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_CORE.md",
+      "source_kind": "full_file",
+      "before_sha256": "88b69fb52e2517395b41dca70cbfee71bb2e1a154db2d1de192dca297e56ce83",
+      "after_sha256": "f54d5a769e2c8415f9bdf7a97f8b9ad46edf0d5f92b68df45202632fb012baf2",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_ENTITIES.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_ENTITIES.md",
+      "source_kind": "full_file",
+      "before_sha256": "bfdedeb7159b6c045b3e9ecf33761ee199773cdf7460747742f75a3f98cb0f90",
+      "after_sha256": "9764d29cbdcbc1363ba95a82efb58565dcece107057e40cbf02654346f2ced7f",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_EXECUTION.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_EXECUTION.md",
+      "source_kind": "full_file",
+      "before_sha256": "52ea2c2f2f109b74ac84f3f72e8fee89bd34e27eb9493fed8aa6a4de924123b3",
+      "after_sha256": "7082f84cde4c388180be9c9f0822e036da2e292893629c817b94bafba813dca9",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_INTENT.md",
+      "action": "add",
+      "source": "files/AI_STANDARD_INTENT.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "143e148668ecd0dfc0acde80b0cd3234ae606923c2c91ada8d4f656467b73a2d",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_LEARNING.md",
+      "action": "add",
+      "source": "files/AI_STANDARD_LEARNING.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "aabbcca3da7df2ad98ab48fa40f38cee136955e212e2f759c9a2e46edc7bd419",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_ONBOARDING.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_ONBOARDING.md",
+      "source_kind": "full_file",
+      "before_sha256": "3057312bebfaa831dc0fa99ec30728a6831031964a999b2337d112b033efc50c",
+      "after_sha256": "ff965a103fae5c2a6d950bcf5fbcd526bf8b55fe35d5d125054036d58ce36827",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_PROJECT.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_PROJECT.md",
+      "source_kind": "full_file",
+      "before_sha256": "84e691ce73909fc9284017422f45d28b14ac8ab9e3a325c06dd49eb6dc7bb6d6",
+      "after_sha256": "d1600c7ab37ff1d4ff64cae1e8e0295147c427329a07b1e0c286963d8e83b1e1",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "AI_STANDARD_TEMPLATES.md",
+      "action": "modify",
+      "source": "files/AI_STANDARD_TEMPLATES.md",
+      "source_kind": "full_file",
+      "before_sha256": "305dd576776c5d531cca98235fdcd4f82eb4704209c1efd7434a94ecdc109256",
+      "after_sha256": "d06a785bf223e343fd4c8b1967efde532f26a0c9e82940d25b2be4af589b61ff",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "action": "add",
+      "source": "files/RELEASE_NOTES.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "0dbd717c83cc9a22726c39b6642561c68743e7663cb90700f842180d94ff2800",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "migration/MIGRATION.md",
+      "action": "add",
+      "source": "files/migration/MIGRATION.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "0d93cd77bc1be78e83e2845bf53ca643f86c384473ade9c60a1cd27e052afb20",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "migration/CHECKPOINT_TEMPLATE.md",
+      "action": "add",
+      "source": "files/migration/CHECKPOINT_TEMPLATE.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "b645d5a656f268caf1a27b55eccc83590aa72fb2db1a3ff5e51b38464b399e52",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "migration/FEATURE_MIGRATION.md",
+      "action": "add",
+      "source": "files/migration/FEATURE_MIGRATION.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "51d39ba69f048ac07d615673dc526b0e8f18e80d740805204a12272c923548a8",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "migration/REHEARSAL.md",
+      "action": "add",
+      "source": "files/migration/REHEARSAL.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "8e14c87df217177e9363edb54d80b419c74a9742a7b6b022d398021cd0f0760b",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "migration/updates/README.md",
+      "action": "add",
+      "source": "files/migration/updates/README.md",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "f933594c93f7db5eeca13f84777c2637365f801f7edb549474c67e0c8c3cef73",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "migration/updates/UPDATE_TEMPLATE.yaml",
+      "action": "add",
+      "source": "files/migration/updates/UPDATE_TEMPLATE.yaml",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "263ecde469fb6d85505db67570b3037781967f022d6f730af74a264b675acb8e",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    },
+    {
+      "path": "STANDARD_RELEASE.yaml",
+      "action": "add",
+      "source": "files/STANDARD_RELEASE.yaml",
+      "source_kind": "full_file",
+      "before_sha256": null,
+      "after_sha256": "68e9a3330c4bb648bb9231ab75c2a9e162dabc4325084b164b10a45643e5710a",
+      "conflict_action": "preserve-and-assess; add target existence is not overwrite permission"
+    }
+  ],
+  "project_actions": [
+    {
+      "step_id": "source-review",
+      "instructions": "UPDATE.md#source-review"
+    },
+    {
+      "step_id": "prepare",
+      "instructions": "UPDATE.md#prepare"
+    },
+    {
+      "step_id": "intent",
+      "instructions": "UPDATE.md#intent"
+    },
+    {
+      "step_id": "learning",
+      "instructions": "UPDATE.md#learning"
+    },
+    {
+      "step_id": "verification",
+      "instructions": "UPDATE.md#verification"
+    },
+    {
+      "step_id": "closure",
+      "instructions": "UPDATE.md#closure"
+    },
+    {
+      "step_id": "switch",
+      "instructions": "UPDATE.md#switch"
+    },
+    {
+      "step_id": "recover",
+      "instructions": "UPDATE.md#recover"
+    }
+  ],
+  "checks": [
+    "source disposition and authorization",
+    "exact target file hashes",
+    "configured paths and enabled records",
+    "historical evidence not widened",
+    "mixed legacy/new interpretation",
+    "source and target closure reports",
+    "coherent version switch"
+  ],
+  "rollback": {
+    "before_switch": "restore only this migration after drift check",
+    "after_switch": "assess subsequent work and schema interpretation; no unconditional downgrade"
+  }
+}
